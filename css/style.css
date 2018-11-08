@@ -1,0 +1,101 @@
+h1,h2,h3,h4,h5{color: #003366;}
+fieldset{background-color: #fff;width: 100%; padding: 10px; border: 1px dashed #ccc;text-align: justify;border-radius: 4px;}
+.site-logo{width: 64px;padding-bottom: 5px;}
+body{background-image: url("../assets/background.jpg");font-family:"lucida grande",tahoma,verdana,arial,sans-serif;}
+.wrapper{margin:0 auto;max-width: 1124px;background: #FFF;padding: 0px;background-color: #fff;}
+.awal{margin:0 auto;max-width: 1124px;background: #FFF;padding: 1px;}
+.top-site{float: left;}
+.header{min-height: 60px;background:linear-gradient(#99ccff,#003366);color:#fff;}
+/*.header{min-height: 60px;background:linear-gradient(#ccc,#030);color:#fff;}*/
+.logo{margin: 10px;padding-top: 0px;}
+.logo-desc{font-size: 20px;color: #fff;}
+#kontak-cepat{color: #555;}
+.kontak-cepat-a{color: #555;}
+#slider{min-height: 50px;padding: 10px;font-style: italic;color: #555;}
+#slider span:hover{color: #ccc;cursor: pointer;}
+.slider-isi{font-weight: bold;color: #fff;}
+#short-desc{background-image: url("../assets/background.jpg");color: #fff;padding: 5px;margin: 0px;}
+#warning-box{position: fixed;bottom: 0px;right: 0px;width: 300px;text-align: justify;}
+
+/*.content{height: 100%;background-color: #ccf;}*/
+.content-side{float: right;margin:5px;background-color: #fff;padding: 5px;border: 0px solid #ccc; min-height: 600px; width: 350px;text-align: center;}
+.content-main{float: left;margin:5px;color:#444;background-color: #fff;padding: 5px;border: 0px solid #ccc;min-height: 600px;max-width: 750px;text-align: justify;}
+.side-title{color: #fff;background-color: #003366;font-weight: bold;margin-top: 4px;font-size: 18px;}
+
+.tengah{text-align: center;}
+.klir{clear: both;}
+.sudut-bulat-border{border: 4px solid #99ccff;border-radius: 20px;padding: 3px;background-color: #99ccff;}
+.sudut-bulat{border-radius: 20px;}
+.gambar-full img{width: 100%;}
+.gambar-artikel img{float: left;margin-right: 10px;margin-bottom: 5px;}
+
+.fitur-1-logo {border: 1px dashed #ccc;font-size: 18px;border-top: none;}
+.fitur-1-logo img{width: 200px;margin: 5px;}
+.fitur-1-logo:hover{background: linear-gradient(#fff,#ccc);}
+.fitur-1-logo a{color: #777;text-decoration: none;}
+
+.footer{clear: both;min-height: 330px;background:linear-gradient(#003366,#000);color: #ccc;}
+.footer table{color: #ccc;padding: 0px;margin: 0px;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 13px;}
+.footer td{padding: 5px;vertical-align: text-top;}
+.footer a{color: #ccc;text-decoration: none;}
+.footer-disclaimer{clear: left;text-align: center;font-style: italic;color: #ccc;}
+
+#peta{float: left;margin: 5px;width: 50%;min-width: 300px;}
+#peta-frame{width: 100%;height: 320px;}
+/*Navigation*/
+.nav-tabs>li>a{color:#005;}
+/*Navigation*/
+
+.video-side{margin:0px;border: 1px solid #030;padding: 2px;background-color: #000;}
+.video-bottom{margin:0px;border: 1px solid #ccc;padding: 2px;background-color: #000;}
+
+.mitra-group{margin-top:5px;}
+.mitra-logo img{float: left;width: 80px;height: 70px;background-color: #fff;margin:2px;border-radius: 15px;}
+
+/*slideshow*/
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*slideshow*/
+
+
+
+/*gallery photo*/
+.img-group{width: 100%;max-height: 550px;overflow: auto;}
+.img-frame{float: left;border: 1px solid #ccc;padding: 5px;background-color: #eee;margin: 2px;border-radius: 5px;text-align: center;}
+.img-frame img{width: 200px;height: 150px;}
+.img-frame a{color:#777;text-decoration: none;}
+/*gallery photo*/
+
+/* gambar atas */
+.gambar-atas{width:100%;margin-bottom: 2px;}
+.gambar-atas img{
+	text-align: center;
+	width: 100%;
+	height: 150px;
+}
+/* gambar atas */
+
+/* artikel group */
+.artikel-group{width: 100%;max-height: 550px;overflow: auto;}
+/* artikel group */
+
+.list-ka-upp li{margin: 15px 0;color:#770000;font-weight:bold;}

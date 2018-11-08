@@ -1,0 +1,51 @@
+body{background-color: #666;}
+h1,h2,h3,h4,h5{color: #003366;}
+.wrapper{
+	margin:0 auto;
+	max-width: 1024px;
+	background: #FFF;
+	padding: 0px;
+	background-color: #fff;
+	min-height: 600px;
+	padding: 0px;
+}
+.nav{}
+.content{min-height: 570px;}
+.content-side{float: left;max-width: 400px;padding: 10px;}
+.content-main{padding: 5px;background-color: #fff;}
+
+.table-parent{width: 100%;height: 450px;overflow: auto;border: 1px solid #ccf;margin-bottom: 5px;}
+
+
+.footer{padding: 5px;text-align: center;}
+
+.form-artikel-tambah{
+	margin-bottom: 3px;
+}
+
+.tarea{
+	min-height: 250px;
+}
+
+.spasi{height:5px;}
+
+.btn-satu{min-width: 100px;}
+
+.info-danger{background-color: #fcc;color: #500;border-radius: 3px;}
+.info-success{background-color: #ccf;color: #005;border-radius: 3px;}
+
+.wrapper-lg{
+	margin:0 auto;
+	margin-top: 100px;
+	max-width: 300px;
+	padding: 0px;
+	min-height: 20px;
+	text-align: center;
+	border-radius: 0px;
+	background-color: #fff;
+	background-image: url("../assets/background2.jpg");
+}
+.putih{background-color: #fff;}
+.lg-head{background-color: #005;color: #fff;font-size: 150%;padding: 5px;margin-bottom: 5px;}
+.jarak-2{margin-top:2px;margin-bottom: 2px;}
+.margin-1{margin:1px;}

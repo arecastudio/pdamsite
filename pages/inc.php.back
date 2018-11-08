@@ -1,0 +1,24 @@
+<?php
+#inc.php
+define('HOST', 'localhost');
+define('USER', 'u0090734_v3');
+define('PASS', 'pdam!@#');
+define('DB', 'u0090734_v3');
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+date_default_timezone_set('Asia/Jayapura');
+$tanggal=date('d-M-Y [H:i:s]',time());
+
+
+$con=mysqli_connect(HOST,USER,PASS,DB);
+
+// Check connection
+if (mysqli_connect_errno()){
+  echo "Failed to connect to MySQL: ".mysqli_connect_error();
+}
+
+function base_url(){
+	return "http://localhost/projects/pdamjayapura/";
+}

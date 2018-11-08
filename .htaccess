@@ -1,0 +1,48 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^sitemap.xml$ pages/sitemap.php [L]
+
+#batasi akses ke direktori arahkan ke forbiden 403, diaktifkan di bawah
+RewriteRule ^assets/?$ - [F]
+RewriteRule ^css/?$ - [F]
+RewriteRule ^download/?$ - [F]
+RewriteRule ^foto/?$ - [F]
+RewriteRule ^foto/artikel/?$ - [F]
+RewriteRule ^foto/galeri/?$ - [F]
+RewriteRule ^foto/galeri/02/?$ - [F]
+RewriteRule ^foto/galeri/03/?$ - [F]
+RewriteRule ^foto/pages/?$ - [F]
+RewriteRule ^foto/slider/?$ - [F]
+RewriteRule ^pages/?$ - [F]
+RewriteRule ^pages/config/?$ - [F]
+RewriteRule ^videos/?$ - [F]
+RewriteRule ^xeon/?$ - [F]
+
+RewriteRule ^gandapura$ xeon/default.php [L]
+RewriteRule ^gandapura/$ xeon/default.php [L]
+
+RewriteRule ^gandapura/([a-zA-Z0-9_-]+)$ xeon/default.php?cfg=$1
+RewriteRule ^gandapura/([a-zA-Z0-9_-]+)/$ xeon/default.php?cfg=$1
+
+#khusus edit hapus arikel
+RewriteRule ^gandapura/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ xeon/default.php?cfg=$1&id=$2
+RewriteRule ^gandapura/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ xeon/default.php?cfg=$1&id=$2
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?ref=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?ref=$1
+
+RewriteRule ^baca/([a-zA-Z0-9_-]+)$ index.php?ref=baca&art=$1
+RewriteRule ^baca/([a-zA-Z0-9_-]+)/$ index.php?ref=baca&art=$1
+
+#RewriteRule ^([a-zA-Z0-9_-]+)$ pages/xeon/index.php?cfg=$1
+#RewriteRule ^([a-zA-Z0-9_-]+)/$ pages/xeon/index.php?cfg=$1
+
+#ErrorDocument 404 http://pdamjayapura.com/?
+ErrorDocument 404 http://localhost/pdamjayapura/?
+#ErrorDocument 403 http://pdamjayapura.com/?
+ErrorDocument 403 http://localhost/pdamjayapura/?
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit

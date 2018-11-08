@@ -1,0 +1,2 @@
+[28-Mar-2017 06:21:49 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/u0090734/public_html/import/bigdump.php on line 394
+[28-Mar-2017 06:21:49 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0090734/public_html/import/bigdump.php on line 933

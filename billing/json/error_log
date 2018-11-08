@@ -1,0 +1,32 @@
+[28-Jun-2017 23:00:06 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:00:15 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:00:17 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:01:00 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:01:03 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:04:00 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:05:38 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:09:38 Asia/Jayapura] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u0090734_v3'@'localhost' (using password: NO) in /home/u0090734/public_html/billing/json/index.php on line 16
+[28-Jun-2017 23:19:30 Asia/Jayapura] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u0090734/public_html/billing/json/index.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/u0090734/public_html/billing/json/index.php on line 29
+[28-Jun-2017 23:20:08 Asia/Jayapura] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u0090734/public_html/billing/json/index.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/u0090734/public_html/billing/json/index.php on line 29
+[28-Jun-2017 23:24:37 Asia/Jayapura] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u0090734/public_html/billing/json/index.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/u0090734/public_html/billing/json/index.php on line 29
+[28-Jun-2017 23:29:34 Asia/Jayapura] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/u0090734/public_html/billing/json/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/u0090734/public_html/billing/json/index.php on line 30
+[28-Jun-2017 23:33:58 Asia/Jayapura] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u0090734/public_html/billing/json/index.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/u0090734/public_html/billing/json/index.php on line 29
+[28-Jun-2017 23:35:46 Asia/Jayapura] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u0090734/public_html/billing/json/index.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/u0090734/public_html/billing/json/index.php on line 29
